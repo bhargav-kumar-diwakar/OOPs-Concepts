@@ -31,3 +31,13 @@ class Vechile{
         return speed;
     }
 }
+
+public class encapsulation{
+    public static void main(String[] args){
+        Vechile v = new Vechile();
+        v.setBrand("Toyota");
+        v.setSpeed(80);
+        System.out.println("Vechile Brand: "+v.getBrand());
+        System.out.println("Vechile Speed: "+v.getSpeed());
+    }
+}
