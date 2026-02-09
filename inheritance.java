@@ -14,3 +14,10 @@ class car extends Vechile{
     }
 }
 
+public class inheritance{
+    public static void main(String[] args){
+        Car c = new Car();
+        c.fuelType();
+        c.seatingCapacity();
+    }
+}
