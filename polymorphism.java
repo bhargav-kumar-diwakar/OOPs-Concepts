@@ -13,3 +13,11 @@ class Bike extends Vechile{
         System.out.println("Bike starts with self or kick.");
     }
 }
+
+
+public class polymorphism{
+    public static void main(String[] args){
+        Vechile v = new Bike(); // Upcasting
+        v.start(); // calls's bike start()
+    }
+}
